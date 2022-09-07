@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWallets.Server", "CryptoWallets\Server\CryptoWallets.Server.csproj", "{D9B748EC-830D-4F4B-84A0-AF7B254BBA28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoWallets.Server", "CryptoWallets\Server\CryptoWallets.Server.csproj", "{D9B748EC-830D-4F4B-84A0-AF7B254BBA28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWallets.Client", "CryptoWallets\Client\CryptoWallets.Client.csproj", "{7FD92423-1F28-476F-8B0D-D6C639743BB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoWallets.Client", "CryptoWallets\Client\CryptoWallets.Client.csproj", "{7FD92423-1F28-476F-8B0D-D6C639743BB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWallets.Shared", "CryptoWallets\Shared\CryptoWallets.Shared.csproj", "{843158A4-355B-46E4-81A6-87629F30ED0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoWallets.Shared", "CryptoWallets\Shared\CryptoWallets.Shared.csproj", "{843158A4-355B-46E4-81A6-87629F30ED0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

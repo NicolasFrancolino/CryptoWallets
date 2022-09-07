@@ -1,0 +1,45 @@
+﻿
+.cont {
+    border-radius: 30px;
+    width: 300px;
+    height: 540px;
+    background-image: linear-gradient(to right, #202140, #2D2E48);
+    margin: auto;
+}
+
+b {
+    color:aliceblue;
+}
+
+span.acount-label {
+    font-size: 14px;
+    color: #747598;
+    font-weight: 700;
+}
+
+span.balance {
+    font-size: 30px;
+    color: #f5f4f1;
+    font-weight: 600;
+}
+
+div.rounded-border {
+    border: 6px solid transparent;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 30px;
+}
+
+i.logo{
+    color: #c0c4df;
+}
+
+.grey-color {
+    background-image: linear-gradient(to top right, #181930 50%, #3b3c58), linear-gradient(145deg, transparent 75%, #3b4065)
+}
+
+div.menu>i {
+    color: #494b64;
+    font-size: 1.7em;
+}
+
