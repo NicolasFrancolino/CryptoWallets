@@ -6,7 +6,6 @@
         </button>
     </div>
 </div>
-
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <nav class="flex-column">
         <div class="nav-item px-3">
@@ -21,10 +20,32 @@
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Widget Crypto
             </NavLink>
         </div>
     </nav>
+    <div class="mt-3 border border-1 border-dark">
+        <ul class="bg-dark w-75 m-auto list-group">
+            <li class="list-group-item">
+                <p class="text-info fw-bold">
+                    <i class="fa-brands fa-ethereum mx-1"></i>
+                    Ethereum<span class="position-absolute end-0">- xx %</span>
+                </p>
+            </li>
+            <li class="list-group-item">
+                <p class="text-info fw-bold">
+                    <i class="fa-brands fa-bitcoin mx-1"></i>
+                    Bitcoin<span class="position-absolute end-0">- xx %</span>
+                </p>
+            </li>
+            <li class="list-group-item">
+                <p class="text-info fw-bold">
+                    <i class="fa-solid fa-usd mx-1"></i>
+                    Usdt<span class="position-absolute end-0">- xx %</span>
+                </p>
+            </li>
+        </ul>
+    </div>
 </div>
 
 @code {
