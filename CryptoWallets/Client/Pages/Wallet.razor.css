@@ -43,3 +43,12 @@ div.menu>i {
     font-size: 1.7em;
 }
 
+.fa-solid {
+    transition: transform .2s;
+}
+
+.fa-solid:hover {
+    cursor: pointer;
+    transform: scale(1.35);
+    color: white;
+}
