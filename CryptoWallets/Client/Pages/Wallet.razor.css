@@ -7,10 +7,6 @@
     margin: auto;
 }
 
-b {
-    color:aliceblue;
-}
-
 span.acount-label {
     font-size: 14px;
     color: #747598;
@@ -21,6 +17,10 @@ span.balance {
     font-size: 30px;
     color: #f5f4f1;
     font-weight: 600;
+}
+
+span.letra {
+    color:aliceblue;
 }
 
 div.rounded-border {
@@ -43,3 +43,22 @@ div.menu>i {
     font-size: 1.7em;
 }
 
+.fa-solid {
+    transition: transform .2s;
+}
+
+.fa-solid:hover {
+    cursor: pointer;
+    transform: scale(1.35);
+    color: white;
+}
+
+.pb-20{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mr-16{
+    display:inline;
+}
