@@ -50,6 +50,25 @@
     color: white;
 }
 
+table tbody tr td {
+    cursor: pointer;
+}
+
+table tbody tr td img {
+    max-height: 16px;
+    max-width: 16px;
+}
+
+table tbody tr:hover {
+    background-color: transparent;
+    opacity: 0.9;
+    color:yellow;
+}
+
+table thead tr th {
+    justify-content: center;
+}
+
 @media (min-width: 641px) {
     .navbar-toggler {
         display: none;
